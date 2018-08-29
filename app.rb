@@ -11,4 +11,7 @@ class App < Sinatra::Base
     @session = session
     erb :index
   end
+
+  get '/checkout' do
+  end
 end
